@@ -4,7 +4,7 @@ public abstract class BaseArray
 
 	public abstract void ArrRand();
 
-    public abstract void Print();
+    public abstract void PrintArray();
     
     public abstract double CalculateAverage();
 }

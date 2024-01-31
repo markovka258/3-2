@@ -20,7 +20,7 @@ internal class Program
 
             foreach(BaseArray item in baseArrays)
             {
-                Console.WriteLine($"Среднее значение {item.GetType()} массива {item.AverageValue()}\n");
+                Console.WriteLine($"Среднее значение {item.GetType()} массива {item.CalculateAverage()}\n");
                 Console.WriteLine($"Элементы массива {item.GetType()}\n");
                 item.PrintArray();
             }
